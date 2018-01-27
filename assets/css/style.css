@@ -1,0 +1,54 @@
+
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+.card-img-top {
+	height: 120px;
+	width: 240px;
+}
+
+body {
+
+	background-image: url (ep-naturalwhite.png);  
+}
+		
+.navbar-brandYeti {
+
+}	
+
+#myPhoto {
+
+}	
+
+article {
+
+}
+
+#iconTable {
+
+}
+
+.footer {
+	text-align: center; 
+}
+
+.btn-primaryMessage {
+	width: 200px;
+}
+
+.messageButton {
+
+	width: 200px;
+}
+
+.footerNote {
+	text-align: center;
+}
