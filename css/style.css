@@ -23,6 +23,18 @@
 	font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
 }
 
+.jumbotron {
+	background-image: url(/assets/heroimg.png);
+	background: rgba(200, 196, 196, 0.5);
+    background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -9 
+  }
+
 .card-footer {
 
 	background-color: #F2AF34;
@@ -40,33 +52,43 @@ h1{
 
  }
 
- h2 {
+ .display-2{
+	margin-top: 15%;
+ }
+
+ h1 {
 		color: rgb(74,170,165);
 		font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
  }
 
- h3 {
+ h2 {
 
-		color: rgb(74,170,165);
+		color: black;
 		font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
 
  }
 
  h4 {
 
- 		color: rgb(74,170,165);
+ 		color: black;
 		font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
  }
 
 h5 {
 
- 		color: rgb(255,255,255);
+ 		color: black;
 		font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
  }
 
  h6 {
- 		color: rgb(74,170,165);
+ 		color: black;
  	 	font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
+ }
+
+ .btn-lg {
+	color: rgb(#FFFFFF);
+	background-color: #04817E;
+
  }
 
 
@@ -81,7 +103,7 @@ h5 {
 
 body {
 
-   background-image: url(assets/images/ep_naturalwhite.png)
+   background-image: url(assets/ep_naturalwhite.png)
    
 }
 
