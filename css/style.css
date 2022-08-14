@@ -25,6 +25,7 @@
 
 .jumbotron {
 	background-image: url(/assets/heroimg.png);
+	background-repeat: no-repeat;
 	background: rgba(200, 196, 196, 0.5);
     background-size: cover;
 	position: absolute;
@@ -164,7 +165,7 @@ display: inline-block;
 
 footer {
 
-	background-color: #696969;
+	background-color: #373738;
 	border-color: #cccccc;
 	font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
 }
