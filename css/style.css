@@ -195,6 +195,18 @@ footer {
 
 }
 
+#inputEmail4 {
+	color: rgb(74,170,165);
+	
+}
+#contactform{
+	color: rgb(#FFFFFF);
+	background-color: #04817E;
+	width: 200px; 
+	height: 50px;
+	border: #FFFFFF;
+	font: color white;
+}
 .card-deck {
 	
 }
